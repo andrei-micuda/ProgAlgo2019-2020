@@ -11,7 +11,6 @@ lui Cezar.
 
 def encrypt(s, n):
     tmp = ''
-    n = int(n)
     for ltr in s:
         if ltr.isupper():
             tmp += chr(((ord(ltr) - ord('A') + n) % 26) + ord('A'))
@@ -23,7 +22,6 @@ def encrypt(s, n):
 
 def decrypt(s, n):
     tmp = ''
-    n = int(n)
     for ltr in s:
         if ltr.isupper():
             tmp += chr(((ord(ltr) - ord('A') - n) % 26) + ord('A'))
@@ -34,7 +32,7 @@ def decrypt(s, n):
 
 
 str = input('sir: ')
-k = input('k: ')
+k = int(input('k: '))
 action = int(input('Vrei sa criptezi sau sa decriptezi sirul? (1 - criptare, 2 - decriptare): '))
 
 if action == 1:
