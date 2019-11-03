@@ -5,9 +5,9 @@ litera p și încă o dată acea vocală (după a, e, i, o, u se adaugă respect
 Fiind dat un astfel de text în limba păsărească, se poate obține textul original? Dacă da, faceți asta.
 '''
 
-s = "Apanapa aparepe meperepe."
-
 vocale = ("a", "e", "i", "o", "u")
+
+s = input()
 
 new_s = ""
 
