@@ -7,13 +7,13 @@ zi a săptămânii cade aceasta. Puteți să faceți 2 cazuri - în care inputul
 def isleap(year):
     year = int(year)
     if year % 4 != 0:
-        return False #common year
+        return False  # common year
     elif year % 100 != 0:
-        return True #leap year
+        return True  # leap year
     elif year % 400 != 0:
-        return False #common year
+        return False  # common year
     else:
-        return True #leap year
+        return True  # leap year
 
 
 day = {
