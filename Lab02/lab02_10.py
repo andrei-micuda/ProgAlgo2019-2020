@@ -1,11 +1,9 @@
-'''
-Numele Pre-Nume
-Scrieți un program care citește un șir de caractere și decide dacă acesta este un nume corect al unei persoane. Se consideră că un nume este corect dacă respectă următoarele proprietăți:
-• Orice nume sau prenume conține doar litere și cel mult o cratimă.
-• Orice nume sau prenume este format din cel puțin 3 litere.
-• Orice nume sau prenume începe cu literă mare.
-• Prenumele sunt cel mult două, iar dacă sunt două atunci sunt despărțite printr-o cratimă (‘-’).
-'''
+# Numele Pre-Nume
+# Scrieți un program care citește un șir de caractere și decide dacă acesta este un nume corect al unei persoane. Se consideră că un nume este corect dacă respectă următoarele proprietăți:
+# • Orice nume sau prenume conține doar litere și cel mult o cratimă.
+# • Orice nume sau prenume este format din cel puțin 3 litere.
+# • Orice nume sau prenume începe cu literă mare.
+# • Prenumele sunt cel mult două, iar dacă sunt două atunci sunt despărțite printr-o cratimă (‘-’).
 
 def isValidName(string):
     tmp = string.split('-', 1)
