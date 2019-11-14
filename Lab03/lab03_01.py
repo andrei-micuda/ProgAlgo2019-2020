@@ -1,4 +1,4 @@
-#Să se determine cele mai mari două valori distincte dintr-un șir de numere întregi.
+# Să se determine cele mai mari două valori distincte dintr-un șir de numere întregi.
 
 s = input()
 
