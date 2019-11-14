@@ -1,7 +1,6 @@
-'''
-Se dă o ecuație de gradul II de forma generala. Realizați un algoritm care să
-determine rădăcinile acesteia.
-'''
+#Se dă o ecuație de gradul II de forma generala. Realizați un algoritm care să
+#determine rădăcinile acesteia.
+
 
 a = int(input('a: '))
 b = int(input('b: '))
