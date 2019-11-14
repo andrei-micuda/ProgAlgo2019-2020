@@ -1,13 +1,10 @@
-'''
-O metodă simplă (dar nesigură!!!) de criptare a unui text o reprezintă cifrul lui Cezar, prin care
-fiecare literă dintr-un text dat este înlocuită cu litera aflată peste 𝑘 poziții la dreapta în
-alfabet în mod circular. Valoarea 𝑘 reprezintă cheia secretă comună pe care trebuie să o cunoască
-atât expeditorul, cât și destinatarul mesajului criptat. Decriptarea unui text constă în înlocuirea
-fiecărei litere din textul criptat cu litera aflată peste 𝑘 poziții la stânga în alfabet în mod
-circular. Scrieți un program care să realizeze criptarea sau decriptarea unui text folosind cifrul
-lui Cezar.
-'''
-
+#O metodă simplă (dar nesigură!!!) de criptare a unui text o reprezintă cifrul lui Cezar, prin care
+#fiecare literă dintr-un text dat este înlocuită cu litera aflată peste 𝑘 poziții la dreapta în
+#alfabet în mod circular. Valoarea 𝑘 reprezintă cheia secretă comună pe care trebuie să o cunoască
+#atât expeditorul, cât și destinatarul mesajului criptat. Decriptarea unui text constă în înlocuirea
+#fiecărei litere din textul criptat cu litera aflată peste 𝑘 poziții la stânga în alfabet în mod
+#circular. Scrieți un program care să realizeze criptarea sau decriptarea unui text folosind cifrul
+#lui Cezar.
 
 def encrypt(s, n):
     tmp = ''
