@@ -1,6 +1,4 @@
-'''
-Scrieți un program care să înlocuiască într-o propoziție toate aparițiile unui cuvânt 𝑠 cu un cuvânt 𝑡.
-'''
+#Scrieți un program care să înlocuiască într-o propoziție toate aparițiile unui cuvânt 𝑠 cu un cuvânt 𝑡.
 
 str = input('sir: ')
 s = input('s: ')
