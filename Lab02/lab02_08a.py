@@ -1,9 +1,7 @@
-'''
-Se citește de la tastatură un text. Se cere să se “traducă” în limba păsărească textul dat astfel: după fiecare vocală se adaugă
-litera p și încă o dată acea vocală (după a, e, i, o, u se adaugă respectiv pa, pe, pi, po, pu). Exemplu: “Ana are mere.” devine
-“Apanapa aparepe meperepe.”
-Fiind dat un astfel de text în limba păsărească, se poate obține textul original? Dacă da, faceți asta.
-'''
+#Se citește de la tastatură un text. Se cere să se “traducă” în limba păsărească textul dat astfel: după fiecare vocală se adaugă
+#litera p și încă o dată acea vocală (după a, e, i, o, u se adaugă respectiv pa, pe, pi, po, pu). Exemplu: “Ana are mere.” devine
+#“Apanapa aparepe meperepe.”
+#Fiind dat un astfel de text în limba păsărească, se poate obține textul original? Dacă da, faceți asta.
 
 vocale = ("a", "e", "i", "o", "u")
 
