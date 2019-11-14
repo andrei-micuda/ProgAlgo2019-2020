@@ -1,7 +1,5 @@
-'''
-Se citește un șir format din n numere întregi (n≥2). Să se afișeze cele mai mari
-două valori distincte din șir sau mesajul "Imposibil", dacă acestea nu există.
-'''
+#Se citește un șir format din n numere întregi (n≥2). Să se afișeze cele mai mari
+#două valori distincte din șir sau mesajul "Imposibil", dacă acestea nu există.
 
 n = int(input('n: '))
 mx1 = None
