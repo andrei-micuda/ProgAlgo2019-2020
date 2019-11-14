@@ -20,9 +20,6 @@ for word in words:
 max_ap = max(freq.values())
 min_ap = min(freq.values())
 
-print(max_ap, min_ap)
-print(freq.values())
-
 max_words = []
 min_words = []
 
@@ -34,8 +31,5 @@ for k, v in freq.items():
 
 max_words.sort()
 min_words.sort()
-
-print(max_words)
-print(min_words)
 
 print(max_words[0], min_words[0])
