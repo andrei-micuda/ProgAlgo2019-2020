@@ -15,6 +15,7 @@ def insert_address(d, val):
 fin = open("persoane.in", 'r')
 
 data = fin.readlines()
+fin.close()
 
 lst_pers = []
 
