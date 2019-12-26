@@ -36,9 +36,14 @@ with open("rucsac.in") as fin:
         g, v = line.split()
         lst_ob.append((i+1, int(g), int(v), int(v)/int(g)))
 
-lst_rez = []
-quickselect(lst_rez, lst_ob, G, mm_pivot)
+if sum([ob[1] for ob in lst_ob]) < G:
+    lst_rez = [(ob, 1) for ob in lst_ob]
+else:
+    lst_rez = []
+    quickselect(lst_rez, lst_ob, G, mm_pivot)
 
 with open("rucsac.out", 'w') as fout:
     for ob in lst_rez:
-        fout.write(str(ob[0][0]).center(5) + str(ob[0][1]).center(5) + str(ob[0][2]).center(5) + str(ob[0][3]).center(5) + f"{ob[1]: .3f}\n")
+        fout.write(str(ob[0][0]).ljust(5) + str(ob[0][1]).center(5) + str(ob[0][2]).center(5) + f"{ob[0][3]: .2f}".center(5) + f"{ob[1]: .3f}\n".center(5))
+
+    fout.write(f"Castig maxim: {sum([ob[0][2] * ob[1] for ob in lst_rez])}")
